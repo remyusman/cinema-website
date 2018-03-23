@@ -1,0 +1,191 @@
+/* ========================================
+ * CSS written here will override Tachyons
+ * ======================================== */
+
+/* General Style Rules */
+
+body {
+  font-family: "Lato", sans-serif;
+}
+.body-wrapper {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  flex-direction: column;
+  overflow-x: scroll;
+  width: 100%;
+}
+.a {
+  color: black;
+  text-decoration: none;
+}
+.a:link {
+  color: black;
+}
+.a:hover {
+  text-decoration: underline;
+}
+.a:active {
+  text-decoration: underline;
+}
+.a2 {
+  color: black;
+  text-decoration: none;
+}
+.a2:hover {
+  text-decoration: none;
+}
+.logotype {
+  max-width: 175px;
+}
+.foot-nav {
+  text-align: center;
+}
+.box {
+  background-color: #ffb700;
+}
+.box:hover {
+  background-color: #ffbe19;
+}
+.box-2 {
+  background-color: #ff4136;
+}
+.box-2:hover {
+  background-color: #ff594f;
+}
+.box-3 {
+  background-color: #59ced8;
+}
+.box-3:hover {
+  background: #8bd0d8;
+}
+.btn {
+  background-color: none;
+  color: black;
+}
+.btn:hover {
+  background-color: #ffb700;
+}
+.btn-2 {
+  background-color: none;
+  color: black;
+}
+.btn-2:hover {
+  background-color: #59ced8;
+}
+/* Navigation Menu */
+.menu {
+  display: flex;
+  position: fixed;
+  width: 100%;
+  font-size: 16pt;
+}
+.nav-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  width: auto;
+  position: absolute;
+  left: 50%;
+}
+
+/* Now Playing */
+.teal-bg {
+  background-color: #59ced8;
+}
+.header-home {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.page-wrapper {
+  position: relative;
+  z-index: 10;
+}
+.big-header {
+  font-size: 50pt;
+  align-items: center;
+}
+.week {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.film-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 0.2px;
+  overflow-x: wrap;
+}
+.img {
+  width: 100%;
+}
+.icon {
+  max-width: 16px;
+}
+.film-title {
+  color: black;
+  font-size: 23px;
+  text-transform: uppercase;
+}
+.showtimes-grid {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+}
+
+/* Booking */
+.b-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-gap: 20px;
+  background-color: #81d8dd;
+}
+.b-container-2 {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  background-color: #ffc532;
+}
+.b-cell .b-cell-r {
+  padding: 10px;
+}
+.b-cell-r {
+  text-align: right;
+}
+.second {
+  width: 100;
+}
+
+/* Coming Soon */
+.trailer-grid {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+}
+.button-2 {
+  background-color: transparent;
+  color: black;
+}
+.button-2:hover {
+  background-color: black;
+  color: #81d8dd;
+}
+.line {
+  text-align: center;
+}
+
+/* Movie Info */
+.poster {
+  max-width: 160px;
+}
+.button {
+  background-color: transparent;
+  border: none;
+  display: block;
+  color: black;
+}
+/* Sidebar Menu */
+.vertical-text {
+  writing-mode: vertical-rl;
+  text-align: center;
+}
